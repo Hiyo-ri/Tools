@@ -1,0 +1,10 @@
+python3 sql_test.py -urls urls.txt -payloads payloads.txt -headers_to_test headers_to_test.txt -header_payloads header_payloads.txt 
+
+check for sqli syntax error
+check for time based sqli
+check for xss with burp collab
+
+you can change workers from code - how many request will be send in sec...
+
+-headers_to_test: Headers you want to test
+-header_payloads.txt: Payloads for headers
